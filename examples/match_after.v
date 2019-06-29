@@ -19,7 +19,7 @@ fn main() {
 	}
 
 	// m.get(0) -> Match everything after this: "I <3 VLang!"
-	// m.get(1) -> "I <3 VLang!"'
+	// m.get(1) -> "I <3 VLang!"
 	// m.get(2) -> Error!
 	whole_match := m.get(0) or {
 		println('We matched nothing...')
